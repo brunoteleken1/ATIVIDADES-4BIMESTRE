@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/novoteste.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+<style>
+
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+   
+body
+{
+  background-color: rgb(248, 187, 73);
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+  text-align: left;
+   
+}
+h3 {
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+</style>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></head>
+<body>
+<h1>introduçao ao JavaScript</h1>
+
+<img src="./atividade1 desenvolvimento de interfaces_files/JavaScript-logo-600x375.png" alt="imagem JavaScript" width="350" height="150">
+
+<h2>O que e JavaScript?</h2>
+<p2>JavaScript é uma linguagem de programação interpretada<br> estruturada
+  , de script em alto nível com tipagem dinâmica fraca e multiparadigma.<br>
+  Juntamente com HTML e CSS, o JavaScript é uma das três principais 
+  tecnologias da World Wide Web.</p2>
+
+  <h3>historia do JavaScript</h3>
+  <p3>O JavaScript foi criado na década de 90 por Brendan Eich a serviço da Netscape.<br>
+      Essa década foi um período de revolução, pois os browsers ainda eram estáticos.<br>
+      O navegador mais popular dessa época era o Mosaic, da NCSA. ... Em 1995, a ,<br>
+      contratou Brendan Eich para criar uma linguagem que proporcionasse isso.</p3>
+   
+      <h4>principais comandos do JavaScript</h4>
+
+      <table>
+        <tbody><tr>
+          <th>comandos</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>assert(expression, message)</td>
+          <td>Envia uma mensagem quando expression é avaliado como falso.</td>
+        </tr>
+        <tr>
+          <td>clear()</td>
+          <td>Limpa as mensagens da janela do console</td>
+        </tr>
+        <tr>
+          <td>count(title)</td>
+          <td>Envia o número de vezes que o comando count foi chamado para a janela do console.</td>
+        </tr>
+        <tr>
+          <td>debug(message)</td>
+          <td>Envia message para a janela do console.
+            Esse comando é idêntico a console.log
+            Os objetos transmitidos usando o comando são convertidos em um valor de cadeia de caracteres.</td>
+        </tr>
+        <tr>
+          <td>error(message)</td>
+          <td>Envia message para a janela do console.
+             O texto da mensagem está em vermelho e antecedido por um símbolo de erro.</td>
+        </tr>
+              
+      </tbody></table>
+      
+
+      
+
+
+
+</body></html>
